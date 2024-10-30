@@ -74,5 +74,15 @@ function draw() {
   triangle(676,164,740,126,671,118);
   fill(162, 173, 193);
   triangle(583,149,676,164,671,118);
+  
+  // (sixth_upload) -> 사각형 도형 1개 추가
+  fill(104, 121, 168);
+  beginShape();
+  vertex(652, 229);  // 첫 번째 꼭짓점
+  vertex(696,269);  // 두 번째 꼭짓점
+  vertex(707,335);  // 세 번째 꼭짓점
+  vertex(673,309);  // 네 번째 꼭짓점
+  endShape(CLOSE);
+
 
 }
